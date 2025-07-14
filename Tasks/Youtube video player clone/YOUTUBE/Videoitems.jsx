@@ -3,8 +3,6 @@ import React from 'react'
 const Videoitems = (props) => {
   return (
     <div className="video-card" onClick={()=>(props.run(props.data))}>
-        {/* <img height={300} width={500} id='videos'  src={props.data.thumbnailUrl} alt='' />
-        <h1>{props.data.title}</h1> */}
 
       <div className="thumb-container">
         <img id='videos' src={props.data.thumbnailUrl} alt='' />
