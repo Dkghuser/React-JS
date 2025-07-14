@@ -1,0 +1,34 @@
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  padding: 12px 24px;
+  border: 2px solid #cbc8c8 ;
+  position: sticky;
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar .logo img {
+  height: 40px;
+  width: 40px;
+}
+
+.search {
+  width: 40%;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid;
+}
+
+.icons span {
+  margin-left: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
